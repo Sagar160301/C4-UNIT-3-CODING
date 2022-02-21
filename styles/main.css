@@ -1,0 +1,36 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#main{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns:  repeat(3,1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+#main div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+#sidebar > div{
+    padding: 10px 0px;
+    padding-left: 10px;
+    
+}
+
